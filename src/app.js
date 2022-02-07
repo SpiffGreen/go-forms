@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 
 function startServer(port) {
   // Create App
@@ -6,7 +7,7 @@ function startServer(port) {
   
   // Initialise middlewares
   app.use(express.json());
-  app.use(express.urlencoded({ urlencoded: false }));
+  app.use(express.urlencoded({ extended: false }));
 
   // Routes
   app.use("/auth", require("./routes/auth.route"));
