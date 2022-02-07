@@ -1,0 +1,33 @@
+{
+  "name": "go-forms",
+  "version": "0.0.0",
+  "description": "A data collection system designed to be easy and simple both in implementation and use",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpiffGreen/go-forms.git"
+  },
+  "keywords": [
+    "go-forms",
+    "data-collection",
+    "data",
+    "database",
+    "questions",
+    "ask"
+  ],
+  "author": "Spiff Jekey-Green",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpiffGreen/go-forms/issues"
+  },
+  "homepage": "https://github.com/SpiffGreen/go-forms#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.0"
+  }
+}
